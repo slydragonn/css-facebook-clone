@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1fr;
+    min-height: 700px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedorPrincipal__infoFacebook{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 550px;
+    justify-content: center;
+    height: auto;
+    align-items:flex-start;
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+
+.contenedorPrincipal__iconoFacebook{
+    width: 300px;
+}
+.contenedorPrincipal__textFacebook{
+font-weight: 200;
+margin-left: 30px;
+font-size: 28px;
+}
+
+.formFacebook{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.formFacebook__form{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formFacebook__email{
+ height: 27px;
+ width: 340px;
+ margin-bottom: 15px;
+ border-radius: 5px;
+ border: 1px solid #dddfe2;
+ font-size:17px;
+ color: #1c1e21;
+ padding: 14px;
+}
+
+.formFacebook__email:focus-visible{
+    outline: none;
+}
+
+.formFacebook__email:focus{
+
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+
+}
+
+.formFacebook__password{
+    height: 27px;
+    width: 340px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    color: #1c1e21;
+    padding: 14px;
+}
+
+.formFacebook__password:focus-visible{
+    outline: none;
+}
+
+.formFacebook__password:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+
+.formFacebook__enviar{
+    height: 47px;
+    width: 370px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size:large;
+    color: #ffffff;
+    padding: 14px;
+    background: #1877f2;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.formFacebook__enviar:hover{
+    background-color: #166fe5;
+}
+
+.formFacebook__segundaOpcion{
+    width: 100%;
+    margin:10px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.formFacebook__olvidaste{
+    margin-bottom: 20px;
+}
+
+.formFacebook__olvidaste a{
+    text-decoration: none;
+    list-style: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.formFacebook__hr{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.formFacebook__crearCuenta{
+    margin-top: 20px;
+    width: 55%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size:large;
+    color: #ffffff;
+    padding: 14px;
+    background: #42b72a;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.formFacebook__crearCuenta:hover{
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+.contenedorForm__crearPagina{
+    width: 360px;
+    margin-top: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer .pageFooter{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 40px;
+    align-items: flex-start;
+}
+
+footer a{
+  list-style: none; 
+  text-decoration: none; 
+  color: #8a8d91;
+  font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+footer .idiomas {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .idiomas li{
+margin-left: 10px;
+list-style: none; 
+  text-decoration: none; 
+  color: #8a8d91;
+  font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+footer .opciones {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+footer .opciones li{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    list-style: none; 
+    text-decoration: none; 
+    color: #8a8d91;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+#masIdiomas{
+    width: 50px;
+    background: #dddfe2;
+}
+#mas{
+    width: 12px;
+}
+
+footer .face {
+    color: #8a8d91;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
